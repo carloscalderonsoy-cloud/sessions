@@ -1,0 +1,186 @@
+{
+  "design_system": {
+    "typography": {
+      "font_family": {
+        "heading": "Archivo Black, sans-serif",
+        "body": "Inter, sans-serif",
+        "accent": "Montserrat, sans-serif"
+      },
+      "scale": {
+        "h1": "text-5xl md:text-7xl font-black tracking-tighter uppercase",
+        "h2": "text-4xl md:text-5xl font-bold tracking-tight",
+        "h3": "text-2xl md:text-3xl font-bold",
+        "body_large": "text-lg md:text-xl font-medium leading-relaxed",
+        "body_default": "text-base text-gray-400 leading-relaxed",
+        "caption": "text-sm text-gray-500 uppercase tracking-widest"
+      }
+    },
+    "colors": {
+      "palette": {
+        "background": {
+          "default": "#0A0A0A",
+          "paper": "#1A1A1A",
+          "subtle": "#121212"
+        },
+        "primary": {
+          "default": "#CCFF00",
+          "hover": "#B3E600",
+          "foreground": "#000000"
+        },
+        "text": {
+          "primary": "#FFFFFF",
+          "secondary": "#A1A1A1",
+          "muted": "#525252"
+        },
+        "border": {
+          "default": "#333333",
+          "active": "#CCFF00"
+        }
+      },
+      "usage": {
+        "background": "bg-[#0A0A0A]",
+        "card_bg": "bg-[#1A1A1A]",
+        "primary_text": "text-white",
+        "secondary_text": "text-[#A1A1A1]",
+        "accent": "text-[#CCFF00]",
+        "border_subtle": "border-[#333333]",
+        "neon_glow": "shadow-[0_0_20px_rgba(204,255,0,0.3)]"
+      }
+    },
+    "layout": {
+      "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+      "section_spacing": "py-20 md:py-32",
+      "grid_gap": "gap-8 md:gap-12",
+      "radius": {
+        "default": "rounded-none",
+        "card": "rounded-xl",
+        "button": "rounded-full"
+      }
+    },
+    "components": {
+      "buttons": {
+        "primary": "bg-[#CCFF00] text-black hover:bg-[#B3E600] font-bold rounded-full px-8 py-4 transition-all duration-300 hover:scale-105 uppercase tracking-wide",
+        "secondary": "bg-transparent border border-[#333333] text-white hover:border-[#CCFF00] hover:text-[#CCFF00] rounded-full px-8 py-4 transition-all duration-300 uppercase tracking-wide",
+        "ghost": "text-[#A1A1A1] hover:text-white transition-colors uppercase tracking-widest text-sm"
+      },
+      "cards": {
+        "service": "bg-[#1A1A1A] border border-[#333333] hover:border-[#CCFF00]/50 transition-all duration-500 p-8 group relative overflow-hidden",
+        "pricing": "bg-[#1A1A1A] border border-[#333333] p-8 flex flex-col h-full hover:shadow-[0_0_30px_rgba(204,255,0,0.1)] transition-all duration-300",
+        "pricing_featured": "bg-[#1A1A1A] border-2 border-[#CCFF00] p-8 flex flex-col h-full relative shadow-[0_0_30px_rgba(204,255,0,0.2)]"
+      }
+    }
+  },
+  "assets": {
+    "logo": {
+      "main": "https://customer-assets.emergentagent.com/job_9ec3d761-60a1-469a-a289-abec3b51c562/artifacts/pbbzc7h7_Captura%20de%20pantalla%202026-02-17%20095203.png",
+      "alt": "Lumo Entretenimiento Logo"
+    },
+    "video": {
+      "hero_bg": "https://customer-assets.emergentagent.com/job_sonic-venture/artifacts/5nrra2hm_Carla%20Apqn%203.mp4"
+    },
+    "images": {
+      "hero_fallback": "https://images.unsplash.com/photo-1765224747184-05d35f23859a",
+      "about_us": "https://images.unsplash.com/photo-1764669930307-4ba89f8469af",
+      "services": {
+        "production": "https://images.unsplash.com/photo-1675292310383-0f4ef53fa3ab",
+        "distribution": "https://images.unsplash.com/photo-1760931657914-3b088e8f4486",
+        "marketing": "https://images.unsplash.com/photo-1720962158812-d16549f1e5a3",
+        "development": "https://images.unsplash.com/photo-1543510616-a4025b9c1434"
+      },
+      "infrastructure": "https://images.unsplash.com/photo-1764669930307-4ba89f8469af",
+      "artists": {
+        "costel": "https://customer-assets.emergentagent.com/job_sonic-venture/artifacts/as6i9xqn_image.png",
+        "tenampa": "https://customer-assets.emergentagent.com/job_sonic-venture/artifacts/i37ogkiv_image.png"
+      }
+    }
+  },
+  "sections": {
+    "hero": {
+      "type": "video_background",
+      "content": {
+        "title": "PROFESIONALIZA TU CARRERA MUSICAL",
+        "subtitle": "Producción, distribución y estrategia para artistas que van en serio.",
+        "cta_primary": "Empieza Ahora",
+        "cta_secondary": "Conoce Nuestros Servicios"
+      }
+    },
+    "about": {
+      "title": "QUIÉNES SOMOS",
+      "description": "Somos Lumo Entretenimiento, una agencia integral dedicada a potenciar el talento musical. No solo producimos música; construimos carreras. Desde la primera nota en el estudio hasta la estrategia de lanzamiento global, somos tu socio estratégico."
+    },
+    "services": {
+      "layout": "bento_grid",
+      "items": [
+        {
+          "title": "Producción Musical",
+          "desc": "Grabación, mezcla y masterización con estándares de industria.",
+          "icon": "Mic2"
+        },
+        {
+          "title": "Distribución Digital",
+          "desc": "Lleva tu música a Spotify, Apple Music y todas las plataformas globales.",
+          "icon": "Globe"
+        },
+        {
+          "title": "Marketing Musical",
+          "desc": "Estrategias de lanzamiento, redes sociales y crecimiento de audiencia.",
+          "icon": "TrendingUp"
+        },
+        {
+          "title": "Desarrollo Artístico",
+          "desc": "Branding, imagen y coaching para definir tu identidad única.",
+          "icon": "User"
+        }
+      ]
+    },
+    "infrastructure": {
+      "title": "INFRAESTRUCTURA DE CLASE MUNDIAL",
+      "subtitle": "Alianza con Buffalo Azul Studios",
+      "description": "Acceso exclusivo a instalaciones de primer nivel. Salas tratadas acústicamente, equipo analógico y digital de vanguardia para que tu sonido compita con los grandes."
+    },
+    "pricing": {
+      "tiers": [
+        {
+          "name": "Emergente",
+          "price": "$5,000 MXN",
+          "features": ["Producción de 1 Single", "Distribución Digital Básica", "Asesoría de Imagen Express"],
+          "highlight": false
+        },
+        {
+          "name": "Profesional",
+          "price": "$12,000 MXN",
+          "features": ["Producción de 2 Singles", "Plan de Marketing 30 días", "Sesión de Fotos", "Distribución Premium"],
+          "highlight": true
+        },
+        {
+          "name": "360 Artist",
+          "price": "Personalizado",
+          "features": ["Producción de EP Completo", "Management Artístico", "Tour de Medios", "Estrategia Global"],
+          "highlight": false
+        }
+      ]
+    },
+    "artists": {
+      "title": "CASOS DE ÉXITO",
+      "list": ["Costel", "Tenampa Brass Band"]
+    }
+  },
+  "instructions_to_main_agent": [
+    "Use 'Archivo Black' from Google Fonts for all headings. If not available, use a heavy weight of 'Montserrat'.",
+    "Implement the Hero section with the provided video URL as a background. Ensure a dark overlay (bg-black/60) so text is readable.",
+    "Use the Neon Green (#CCFF00) sparingly. Only for buttons, active states, and key borders. Do not overuse.",
+    "The 'Services' section should use a Bento Grid layout (CSS Grid) with hover effects on cards.",
+    "Ensure the 'Contact' form connects to the backend endpoint '/api/contact'.",
+    "Use Lucide-React icons for all iconography.",
+    "Strictly follow the Dark Mode theme. Backgrounds should be #0A0A0A or #1A1A1A.",
+    "For the 'Pricing' section, make the middle card (Profesional) pop with a Neon Green border and glow effect.",
+    "Add 'data-testid' to all interactive elements (buttons, inputs, links)."
+  ],
+  "universal_guidelines": [
+    "Avoid generic centered layouts. Use asymmetry where possible.",
+    "Use 2-3x more padding than standard Tailwind defaults (e.g., py-24 instead of py-12).",
+    "Micro-interactions are mandatory: hover states for buttons, cards, and links.",
+    "No gradients for text or backgrounds unless specified. Stick to solid, bold colors.",
+    "Use 'sonner' for toast notifications."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "summary": {
+    "total_tests": 5,
+    "passed_tests": 5,
+    "success_rate": "100.0%",
+    "timestamp": "2026-02-17T16:49:31.209551"
+  },
+  "test_results": [
+    {
+      "test": "API Root",
+      "success": true,
+      "details": "Response: {'message': 'Lumo Entretenimiento API - Bienvenido'}",
+      "timestamp": "2026-02-17T16:49:30.376221"
+    },
+    {
+      "test": "Health Check",
+      "success": true,
+      "details": "Response: {'status': 'healthy', 'service': 'Lumo Entretenimiento API'}",
+      "timestamp": "2026-02-17T16:49:30.575548"
+    },
+    {
+      "test": "Contact Form - Valid Data",
+      "success": true,
+      "details": "Contact created with ID: 25cc15df-7701-4b08-ae42-19e0d94eb6a0",
+      "timestamp": "2026-02-17T16:49:30.869837"
+    },
+    {
+      "test": "Contact Form - Minimal Data",
+      "success": true,
+      "details": "Contact created with minimal data",
+      "timestamp": "2026-02-17T16:49:31.002504"
+    },
+    {
+      "test": "Contact Form - Invalid Data",
+      "success": true,
+      "details": "Correctly rejected invalid data with status 422",
+      "timestamp": "2026-02-17T16:49:31.208724"
+    }
+  ]
+}
